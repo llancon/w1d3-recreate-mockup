@@ -1,0 +1,16 @@
+* {
+  border-style: red;
+  box-sizing: border-box;
+
+}
+.box {
+  background: red;
+  display: inline-block;
+  width: 20vw;
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+body {
+  text-align: center;
+}
