@@ -27,10 +27,11 @@
   text-align: center;
   border: 1px solid grey;
   display: inline-block;
-  width: 200px;
+  width: 300px;
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: serif;
 
 }
 .topspace {
@@ -40,9 +41,10 @@
 ul {
   list-style-type: none;
   padding-left: 0px;
+
 }
 span {
-  font-size: 60px;
+  font-size: 70px;
 }
 li {
   border-bottom: 1px solid grey;
@@ -54,15 +56,29 @@ li {
   margin: 0;
 }
 #green {
-  background-color: green;
+  background-color: #4D9258;
 }
 #blue {
-  background-color: blue;
+  background-color: #2D4A81;
 }
 #black {
-  background-color: black;
+  background-color: #111111;
 }
 button {
   background-color: white;
   border-radius:15%;
+}
+.text-columns {
+  columns: 2;
+  text-align: left;
+  margin-left: 20px;
+  padding: 30px;
+}
+.footblock {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding-top: 40px
 }
